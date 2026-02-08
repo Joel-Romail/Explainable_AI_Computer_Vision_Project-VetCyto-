@@ -246,20 +246,3 @@ python diagnostic_scripts/04_xai_diagnostic_suite.py
 ```
 ---
 
-## Appendix: Technical Details
-
-### Model Architecture
-- **Base Model:** YOLOv8n (nano variant)
-- **Input Size:** 640×640 pixels
-- **Training Dataset:** Optical microscopy images with tape border artifacts
-- **Classes:** Class "0"
-
-### Computing Environment
-- **Platform:** Google Colab (GPU: T4/V100)
-- **PyTorch Version:** 2.x
-- **Ultralytics Version:** 8.x
-- **CUDA:** 11.8
----
-
-**Last Updated:** [Current Date]  
-**Repository Version:** 1.0.0
